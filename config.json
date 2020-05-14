@@ -8,6 +8,7 @@
   "native": {
     "enable": true,
     "skip_download": false,
-    "cache_folder": "assets"
+    "cache_folder": "assets",
+    "async_count": 16
   }
 }
