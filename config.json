@@ -1,0 +1,12 @@
+{
+  "debug": true,
+  "single_instance": true,
+  "switch": ["--disable-http-cache", "--enable-gpu-rasterization"],
+
+  "zh_cn": true,
+  "disable_console_overwrite": true,
+  "native": {
+    "enable": true,
+    "skip_download": true
+  }
+}

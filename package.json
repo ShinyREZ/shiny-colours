@@ -1,0 +1,14 @@
+{
+  "name": "shiny-colours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yesterday17/shiny-colours",
+  "author": "Yesterday17 <t@yesterday17.cn>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./lib/main.js"
+  },
+  "devDependencies": {
+    "electron": "^8.2.0"
+  }
+}
