@@ -7,6 +7,7 @@
   "disable_console_overwrite": true,
   "native": {
     "enable": true,
-    "skip_download": true
+    "skip_download": false,
+    "cache_folder": "assets"
   }
 }
