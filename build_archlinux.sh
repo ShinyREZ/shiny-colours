@@ -1,0 +1,1 @@
+yarn run electron-builder --linux --dir -c.electronDist=/usr/lib/electron -c.electronVersion="$(</usr/lib/electron/version)"

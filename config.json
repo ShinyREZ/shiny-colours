@@ -4,11 +4,11 @@
   "switch": ["--disable-http-cache", "--enable-gpu-rasterization"],
 
   "zh_cn": true,
-  "disable_console_overwrite": true,
+  "disable_console_overwrite": false,
+  "cache_folder": "assets",
   "native": {
     "enable": true,
     "skip_download": false,
-    "cache_folder": "assets",
     "async_count": 16
   }
 }

@@ -1,14 +1,44 @@
 {
   "name": "shiny-colours",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Shiny colors app for u.",
+  "main": "lib/main.js",
   "repository": "https://github.com/Yesterday17/shiny-colours",
   "author": "Yesterday17 <t@yesterday17.cn>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ./lib/main.js"
+    "start": "electron .",
+    "dist": "electron-builder dist"
   },
   "devDependencies": {
-    "electron": "^8.2.0"
+    "electron": "^8.2.0",
+    "electron-builder": "^22.6.0"
+  },
+  "build": {
+    "appId": "moe.mmf.shinycolours",
+    "mac": {
+      "category": "public.app-category.games"
+    },
+    "files": [
+      "**/*",
+      "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
+      "!**/node_modules/*.d.ts",
+      "!**/node_modules/.bin",
+      "!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+      "!.editorconfig",
+      "!**/._*",
+      "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+      "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+      "!**/{appveyor.yml,.travis.yml,circle.yml}",
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}",
+      "!assets/*",
+      "!*.sh",
+      "!*.md",
+      "!*.asar",
+      "!config.json",
+      "!dist/*",
+      "build/icon.png"
+    ]
   }
 }
