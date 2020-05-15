@@ -1,5 +1,5 @@
 {
-  "debug": true,
+  "debug": false,
   "single_instance": true,
   "switch": ["--disable-http-cache", "--enable-gpu-rasterization"],
 
