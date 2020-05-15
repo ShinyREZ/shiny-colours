@@ -1,7 +1,7 @@
 {
   "debug": false,
   "single_instance": true,
-  "switch": ["--disable-http-cache", "--enable-gpu-rasterization"],
+  "switch": ["disable-http-cache", "autoplay-policy:no-user-gesture-required"],
 
   "no_mute": true,
   "zh_cn": true,
