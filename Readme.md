@@ -17,17 +17,15 @@ All the features are optional. You can choose to disable them and use shiny-colo
   I don't recommend you to purchase within this client. Though this client is open-source and I can prove the distribution on GitHub it's safe, nobody knows whether the distribution he/she got is not patched by others.
 
 ## Screenshot
+
+Download data in native mode:
 ![image](https://user-images.githubusercontent.com/8667822/82006424-59909900-969a-11ea-8af7-9a50e07fdb8f.png)
 
-Download data in native mode.
-
+Chinese localization in native mode:
 ![image](https://user-images.githubusercontent.com/8667822/82006219-e38c3200-9699-11ea-8f3a-796bdde75e33.png)
 
-Chinese localization in native mode.
-
+Chinese localization in browser mode:
 ![image](https://user-images.githubusercontent.com/8667822/82006624-d459b400-969a-11ea-933f-3597289efff2.png)
-
-Chinese localization in browser mode.
 
 ## Addition
 
