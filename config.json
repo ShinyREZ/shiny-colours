@@ -1,7 +1,15 @@
 {
   "debug": false,
   "single_instance": true,
-  "switch": ["disable-http-cache", "autoplay-policy:no-user-gesture-required"],
+  "hardware_acceleration": true,
+  "switch": [
+    "disable-http-cache",
+    "autoplay-policy:no-user-gesture-required",
+
+    "//disable-frame-rate-limit",
+    "disable-gpu-vsync",
+    "//show-fps-counter"
+  ],
 
   "no_mute": true,
   "zh_cn": true,
