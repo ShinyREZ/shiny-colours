@@ -1,5 +1,5 @@
 {
-  "debug": false,
+  "debug": true,
   "single_instance": true,
   "hardware_acceleration": true,
   "switch": [
@@ -10,6 +10,8 @@
     "disable-gpu-vsync",
     "//show-fps-counter"
   ],
+
+  "require_function": "csobb3pncbpccs",
 
   "no_mute": true,
   "zh_cn": true,
