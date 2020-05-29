@@ -11,10 +11,8 @@
     "//show-fps-counter"
   ],
 
-  "require_function": "csobb3pncbpccs",
-
   "no_mute": true,
-  "zh_cn": true,
+  "//zh_cn": true,
   "disable_console_overwrite": false,
 
   "cache": true,
