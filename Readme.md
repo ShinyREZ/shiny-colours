@@ -19,7 +19,7 @@ All the features are optional. You can choose to disable them and use shiny-colo
 ## Screenshot
 
 Download data in native mode:
-![image](https://user-images.githubusercontent.com/8667822/82006424-59909900-969a-11ea-8af7-9a50e07fdb8f.png)
+![image](https://user-images.githubusercontent.com/8667822/89661934-ee0b4000-d905-11ea-9460-48189af02a1e.png)
 
 Chinese localization in native mode:
 ![image](https://user-images.githubusercontent.com/8667822/82006219-e38c3200-9699-11ea-8f3a-796bdde75e33.png)
